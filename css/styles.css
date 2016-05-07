@@ -1,0 +1,51 @@
+html{
+	font-family: helvetica;
+}
+
+body{
+	background: url('../images/concepcion-de-noche_zoom.jpg');
+	background-size: 100%;
+	background-color: #000000;
+}
+
+header, footer, .social li a{
+	color: #D4D4D4;
+}
+
+header{
+	padding: 10em 0;
+}
+
+header h1,p{
+	text-align: center;
+}
+
+header h1{
+	font-size: 3.5em;
+}
+
+ul{
+	display: block;
+}
+
+.social{
+  margin: 0;
+  text-align: center;
+}
+
+.social li{
+  display: inline-block;
+  margin: 0 1em;
+  padding: 1.5em 0;
+}
+
+.social li a{
+  display: block;
+  font-size: 2em;
+  min-width: 1.4em;
+  text-align: center;
+}
+
+.social li a:hover{
+  color: #E5E5E5;
+}
